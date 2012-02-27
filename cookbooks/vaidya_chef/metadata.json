@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+  },
+  "name": "vaidya_chef",
+  "maintainer_email": "vvaidyanathan@ctepl.com",
+  "attributes": {
+  },
+  "license": "All rights reserved",
+  "suggestions": {
+  },
+  "platforms": {
+  },
+  "maintainer": "Vaidya",
+  "long_description": "= DESCRIPTION:\n\n= REQUIREMENTS:\n\n= ATTRIBUTES:\n\n= USAGE:\n\n",
+  "version": "0.0.1",
+  "recommendations": {
+  },
+  "recipes": {
+    "vaidya_chef::default": "Prints a message to the output"
+  },
+  "groupings": {
+  },
+  "conflicting": {
+  },
+  "replacing": {
+  },
+  "description": "Installs/Configures vaidya_chef",
+  "providing": {
+  }
+}
