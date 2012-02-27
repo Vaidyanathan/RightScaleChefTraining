@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "rs_utils": ">= 0.0.0"
   },
   "name": "vaidya_chef",
   "maintainer_email": "vvaidyanathan@ctepl.com",
