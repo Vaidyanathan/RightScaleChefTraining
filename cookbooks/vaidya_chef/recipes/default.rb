@@ -6,9 +6,9 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-
 rs_utils_marker :begin
 
+require 'yaml'
 log "HELLO"
 
 package_name = value_for_platform(
@@ -24,4 +24,7 @@ log "The package that will be installed is #{package_name}
 
 log "The input from the dashboard is #{node[:vaidya_chef][:custom_input]}"
 
+log node.to_yaml
 rs_utils_marker :end
+
+
