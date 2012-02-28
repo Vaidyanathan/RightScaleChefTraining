@@ -5,6 +5,20 @@
   "name": "vaidya_chef",
   "maintainer_email": "vvaidyanathan@ctepl.com",
   "attributes": {
+    "vaidya_chef/custom_input": {
+      "required": "optional",
+      "calculated": false,
+      "choice": [
+        "A",
+        "B",
+        "C"
+      ],
+      "type": "string",
+      "recipes": [
+        "vaidya_chef::default"
+      ],
+      "display_name": "A Custom Chef Input"
+    }
   },
   "license": "All rights reserved",
   "suggestions": {
